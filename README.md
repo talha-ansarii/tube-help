@@ -30,9 +30,9 @@ Analyze YouTube videos to generate timestamps, summaries, quizzes, and chat with
 ## 🛠️ **Tech Stack**
 
 - **Framework:** Next.js (TypeScript)
-- **AI Integration:** OpenAI API (ChatGPT)
+- **AI Integration:** Gemini API
 - **Deployment:** Vercel
-- **Styling:** TailwindCSS
+- **Styling:** TailwindCSS, Shadcn UI
 - **Backend:** Serverless API Routes (Next.js)
 
 ## 📦 **Installation & Setup**
