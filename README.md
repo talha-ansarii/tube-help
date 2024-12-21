@@ -82,10 +82,3 @@ For any questions or feedback, feel free to reach out:
 - **Email:** your.email@example.com
 - **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
 
----
-
-<<<<<<< HEAD
-**Ready to Learn Smarter, Not Harder? Start using Tube Help today!** ✨
-=======
-**Ready to Learn Smarter, Not Harder? Start using Tube Help today!** ✨
->>>>>>> cf9cb70b6973a1cfaa6399e5e08e846b8ab9c2b7
