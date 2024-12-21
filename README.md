@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tube Help 🎓🤖
 
-## Getting Started
+**Your AI Study Buddy for YouTube**
 
-First, run the development server:
+Analyze YouTube videos to generate timestamps, summaries, quizzes, and chat with an AI about your videos using the power of AI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 **Live Demo:** [Tube Help](https://tube-help.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📍 **Timestamps**
+- Quickly jump to specific sections of the video with AI-generated timestamps.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📝 **Summarization**
+- Get concise summaries in various styles: casual, professional, and more.
+- **Brain Rot Summary:** Chaotic, meme-worthy summaries for fun and easy learning.
 
-## Learn More
+### 🧠 **Quizzes**
+- Automatically generated quizzes to test your understanding of the video content.
 
-To learn more about Next.js, take a look at the following resources:
+### 💬 **Chatbot**
+- Interactive chatbot for contextual conversations about your videos.
+- Ask questions and get instant, AI-powered answers.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ **How It Works**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Input URL:** Enter a YouTube video URL.
+2. **Access Features:** Instantly access timestamps, summaries, quizzes, chatbot, and more.
 
-## Deploy on Vercel
+## 🛠️ **Tech Stack**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework:** Next.js (TypeScript)
+- **AI Integration:** Gemini API
+- **Deployment:** Vercel
+- **Styling:** TailwindCSS, Shadcn UI
+- **Backend:** Serverless API Routes (Next.js)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 **Installation & Setup**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/tube-help.git
+   cd tube-help
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create an `.env.local` file for environment variables:
+   ```plaintext
+   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🚀 **Deployment**
+
+This app is deployed on [Vercel](https://vercel.com/). To deploy your own version:
+
+1. Fork the repository.
+2. Connect it to Vercel.
+3. Set environment variables in Vercel's dashboard.
+
+## 🤝 **Contributing**
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+## 🛡️ **License**
+
+This project is licensed under the **MIT License**.
+
+## 📬 **Contact**
+
+For any questions or feedback, feel free to reach out:
+- **Email:** your.email@example.com
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+
+---
+
+**Ready to Learn Smarter, Not Harder? Start using Tube Help today!** ✨
