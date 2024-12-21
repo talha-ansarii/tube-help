@@ -50,7 +50,9 @@ export function TimestampTimeline({ timestamps, onTimestampClick }: TimestampTim
   const parsedTimestamps = parseTimestamps(timestamps);
 
   return (
-    <div className="mt-4 flex  justify-between items-start bg-[#F3F4F6] p-5 rounded-lg">
+    <div>
+  { timestamps &&
+   <div className="mt-4 flex  justify-between items-start bg-[#F3F4F6] p-5 rounded-lg">
       <div className='flex flex-col space-y-2'>
       {parsedTimestamps.map((timestamp, index) => (
         <button
@@ -66,11 +68,16 @@ export function TimestampTimeline({ timestamps, onTimestampClick }: TimestampTim
         
       </div>
       <button onClick={handleCopy} >
-      <Copy className={`
-        ${copied ? 'text-green-500' : 'text-gray-500'}
-        cursor-pointer`} />
+        {timestamps &&
+          <Copy className={`
+            ${copied ? 'text-green-500' : 'text-gray-500'}
+            cursor-pointer`} />
+
+        }
 
       </button>
+    </div>}
+
     </div>
   );
 }
