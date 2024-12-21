@@ -11,7 +11,6 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { InfoIcon, Loader2 } from 'lucide-react';
 import { VideoPlayer } from "@/components/VideoPlayerr";
 import Chatbot from "./Chatbot";
-
 // const BACKEND_URL = "http://localhost:3000";
 
 export default function VideoProcessingPage() {

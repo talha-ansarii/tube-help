@@ -24,6 +24,7 @@
     "node-fetch": "^3.3.2",
     "rc-progress": "^4.0.0",
     "react": "^18",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18",
     "react-markdown": "^9.0.1",
     "react-youtube": "^10.1.0",
