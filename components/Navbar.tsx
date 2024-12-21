@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const Navbar = () => {
@@ -6,7 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          <a href="#" className="hover:text-gray-300">Tube Help</a>
+          <Link href="/" className="hover:text-gray-300">Tube Help</Link>
         </div>
 
         {/* Links */}
