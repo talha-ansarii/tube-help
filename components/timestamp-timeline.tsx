@@ -70,7 +70,7 @@ export function TimestampTimeline({ timestamps, onTimestampClick }: TimestampTim
       <button onClick={handleCopy} >
         {timestamps &&
           <Copy className={`
-            ${copied ? 'text-green-500' : 'text-gray-500'}
+            ${copied ? 'text-black' : 'text-gray-500'}
             cursor-pointer`} />
 
         }
